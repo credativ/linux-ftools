@@ -2,3 +2,5 @@
 *~
 *.o
 *.patch
+Makefile.in
+aclocal.m4
