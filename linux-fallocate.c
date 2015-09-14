@@ -4,7 +4,11 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <sys/syscall.h>
+#if defined(__x86_64__)
 #include <asm/unistd_64.h>
+#else
+#include <asm/unistd.h>
+#endif
 #include <errno.h>
 #include <fcntl.h>
 #include <stdlib.h>
