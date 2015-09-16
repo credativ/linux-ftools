@@ -20,10 +20,6 @@ BuildRequires:  autoconf, automake, make, gcc
 These are tools designed for working with modern linux system calls
 including, mincore, fallocate, fadvise, etc.
 
-Authors:
---------
-	Bernd Helmle <bernd.helmle@credativ.de>
-
 %prep
 %setup -q -n linux-ftools-REL%{_branch}_%{_major}_%{_minor}
 
